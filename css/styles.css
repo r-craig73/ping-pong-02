@@ -1,0 +1,49 @@
+body {
+  background-image: url("../photos/pingpongBackground.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#game-box {
+  background-color: white;
+  opacity: 0.9;
+  width: 75%;
+  padding: 25px 50px 50px 50px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-width: 5px;
+  border-color: black;
+}
+
+#result {
+  display: none;
+  text-align: left;
+  background-color: white;
+  opacity: 0.9;
+  width: 75%;
+  padding: 25px 50px 50px 50px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-width: 5px;
+  border-color: black;
+}
+
+.btn{
+  border-width: 5px;
+  border-color: black;
+}
+
+.container{
+  margin: 0 auto;
+}
