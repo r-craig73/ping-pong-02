@@ -1,8 +1,18 @@
 //back end logic
+var countedNumbers = [];
 var counter = function(number) {
   for (var index = 1; index <= number; index += 1) {
-  alert("The current number is: " + index );
+  // console.log("The current number is: " + index );
+  if (index % 3 === 0){
+    countedNumbers.push("ping");
+  } else if (index % 5 === 0){
+    countedNumbers.push("pong");
+  } else {
+    countedNumbers.push(index);
+  }
 }
+console.log(countedNumbers);
+return countedNumbers;
 }
 
 
@@ -12,7 +22,6 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("#number").val());
     var result = counter(number);
-    console.log(number);
-    // $("#result").text(result);
+    $("#result").text(result);
   });
 });
