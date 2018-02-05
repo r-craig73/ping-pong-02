@@ -5,7 +5,9 @@ def ping_pong(number)
   x = 0
   while (x < number)
     x = x + 1
-    if x.%(3).eql?(0)
+    if (x.%(3).eql?(0)) & (x.%(5).eql?(0))
+      new_array.push("PINGPONG")
+    elsif x.%(3).eql?(0)
       new_array.push("ping")
     elsif x.%(5).eql?(0)
       new_array.push("pong")

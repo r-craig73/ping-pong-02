@@ -2,13 +2,12 @@ require('rspec')
 require('ping_pong')
 
 describe('#ping_pong') do
-    it("counts to a given number and returns ping for %3 pong for %5") do
-       expect(ping_pong(5)).to(eq([1,2,"ping",4,"pong"]))
-    end
-
-  # it("counts to a given number and returns ping for any number divisible by 3") do
-  #    expect(ping_pong(3)).to(eq([1,2,"ping"]))
-  # end
+  it("counts to a given number and returns ping for %3 pong for %5 and PINGPONG for %15") do
+     expect(ping_pong(15)).to(eq([1,2,"ping",4,"pong","ping",7,8,"ping","pong",11,"ping",13,14,"PINGPONG"]))
+  end
+    # it("counts to a given number and returns ping for %3 pong for %5") do
+    #    expect(ping_pong(5)).to(eq([1,2,"ping",4,"pong"]))
+    # end
 end
 
 
