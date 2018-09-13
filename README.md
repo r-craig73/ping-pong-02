@@ -1,48 +1,40 @@
-# _PING PONG GAME_
+# ping-pong-02
 
-#### _Website that takes user input and returns numbers and ping pongs. 11/11/2017_
+## GitHub repository: https://github.com/r-craig73/ping-pong-02
 
-#### By _**Anna Marie Cooper**_
+#### By Ron Craig (https://github.com/r-craig73) & Anna Marie Cooper (https://github.com/rogueminx)
 
 ## Description
+#### An Epicodus lesson: Practice using BDD with Ruby using "Ping-Pong"
 
-Using Javascript, the website takes the user input and returns a count of numbers up to that number. Except it says ping for any numbers divisible by three, pong for anything divisible by 5, and pingpong for anything divisible by both.
+#### Ping Pong Behavior
+* Numbers will display in an array.
+* Numbers divisible by three becomes "ping."
+* Numbers divisible by five becomes "pong."
+* Numbers divisible by three AND five becomes "PINGPONG."
 
-#### Behavior
+#### Ping Pong Specs
 1. It can count to to the provided number.
-  * example input: 2
-  * example output: 1,2
+  * example input: ping_pong(2)
+  * example output: [1, 2]
 3. A number that is divisible by 3 but not 5 returns the word "ping."
-  * example input: 3
-  * example output: 1,2,ping
+  * example input: ping_pong(3)
+  * example output: [1, 2, 'ping']
 4. A number that is divisible by 5 but not 3 returns the word "pong."
-  * example input: 5
-  * example output: 1,2,ping,4,pong
-5. A number that is divisible by 3 AND 5 (example input: 15) returns the word "pingpong."
-  * example input: 15
-  * example output: 1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong
+  * example input: ping_pong(5)
+  * example output: [1, 2, 'ping', 4, 'pong']
+5. A number that is divisible by 3 AND 5 (example input: 15) returns the word "PINGPONG."
+  * example input: ping_pong(15)
+  * example output: [1, 2, 'ping', 4, 'pong', 'ping', 7, 8, 'ping', 'pong', 11, 'ping', 13, 14, 'PINGPONG']
 
-## Setup/Installation Requirements
-
-* _Open terminal_
-* _Move to desired folder_
-* _Type "git clone https://github.com/rogueminx/ping-pong.git"_
-* _Open index.html in browser of choice_
-
-## Known Bugs
-
-_None_
-
-## Support and contact details
-
-_Please contact me at annamarie@rogueminx.com with questions._
+## Setup
+* Clone the repository
+* Install RSpec by running `$ gem install rspec` from your terminal.
 
 ## Technologies Used
+* Ruby, RSpec gem and Pry gem
 
-* _HTML_
-* _CSS_
-* _Javascript_
+## Support and contact details
+_Please contact ron.craig@comcast.net with questions._
 
-### License
-
-Copyright (c) 2017 **Anna Marie Cooper**
+## MIT License
