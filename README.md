@@ -17,13 +17,13 @@
 1. It can count to to the provided number.
   * example input: ping_pong(2)
   * example output: [1, 2]
-3. A number that is divisible by 3 but not 5 returns the word "ping."
+2. A number that is divisible by 3 but not 5 returns the word "ping."
   * example input: ping_pong(3)
   * example output: [1, 2, 'ping']
-4. A number that is divisible by 5 but not 3 returns the word "pong."
+3. A number that is divisible by 5 but not 3 returns the word "pong."
   * example input: ping_pong(5)
   * example output: [1, 2, 'ping', 4, 'pong']
-5. A number that is divisible by 3 AND 5 (example input: 15) returns the word "PINGPONG."
+4. A number that is divisible by 3 AND 5 (example input: 15) returns the word "PINGPONG."
   * example input: ping_pong(15)
   * example output: [1, 2, 'ping', 4, 'pong', 'ping', 7, 8, 'ping', 'pong', 11, 'ping', 13, 14, 'PINGPONG']
 
