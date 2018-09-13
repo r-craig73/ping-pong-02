@@ -5,7 +5,7 @@
 #### By Ron Craig (https://github.com/r-craig73) & Anna Marie Cooper (https://github.com/rogueminx)
 
 ## Description
-#### An Epicodus lesson: Practice using BDD with Ruby using "Ping-Pong"
+#### An Epicodus lesson 02/05/2018: Practice using BDD with Ruby using "Ping-Pong"
 
 #### Ping Pong Behavior
 * Numbers will display in an array.
